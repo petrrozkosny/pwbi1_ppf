@@ -1,0 +1,1 @@
+suma srazek predchozi rok:=CALCULATE(SUM(data[srazky]);FILTER(ALL(data[rok]);data[rok] = MAX(data[rok]) - 1))
